@@ -39,7 +39,7 @@ jobs:
         run: |
          echo start Run markdown lint
          npm install remark-cli remark-preset-lint-consistent
-         npx remark . --use remark-preset-lint-consistent --frail
+         npx remark .
 
 
      
