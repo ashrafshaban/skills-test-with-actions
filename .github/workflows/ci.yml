@@ -38,6 +38,7 @@ jobs:
       - name: Run markdown lint
         run: |
          echo start Run markdown lint
+         npm install remark-cli remark-preset-lint-consistent
 
 
      
