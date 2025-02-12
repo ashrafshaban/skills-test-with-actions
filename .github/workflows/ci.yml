@@ -35,8 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      # Run markdown lint
-      - name: Run markdown lint
-        run: |
-         echo start Run markdown lint
-         
+     
